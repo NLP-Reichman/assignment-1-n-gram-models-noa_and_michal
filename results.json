@@ -4,24 +4,24 @@
     "vocab_length": 1804
   },
   "test_build_lm": {
-    "english_2_gram_length": 739,
-    "english_3_gram_length": 8462,
-    "french_3_gram_length": 8506,
-    "spanish_3_gram_length": 8698
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8238,
+    "french_3_gram_length": 8285,
+    "spanish_3_gram_length": 8468
   },
   "test_eval": {
-    "en_on_en": 19.36,
-    "en_on_fr": 37.96,
-    "en_on_tl": 41.61,
-    "en_on_nl": 38.06
+    "en_on_en": 26.74,
+    "en_on_fr": 58.49,
+    "en_on_tl": 70.59,
+    "en_on_nl": 61.41
   },
   "test_generate": {
-    "english_2_gram": "I amell1927739'RT llin h",
-    "english_3_gram": "I ame\" selphourickwas fr",
+    "english_2_gram": "I amell1Gige omyo & he't",
+    "english_3_gram": "I amebompirs ans appree ",
     "english_4_gram": "I Lover. Zo Are froming #M",
-    "spanish_2_gram": "Soy guy hen ': e iolosi",
-    "spanish_3_gram": "Soy ensanta oto el 2078",
-    "french_2_gram": "Je suis e Do/u ar conone ve",
-    "french_3_gram": "Je suistreeke siont spours "
+    "spanish_2_gram": "Soy Y Dusos qups  en ce",
+    "spanish_3_gram": "Soy ensanta oto el 200 ",
+    "french_2_gram": "Je suis jeitpu s a male s:/",
+    "french_3_gram": "Je suistreil Her lon in vs "
   }
 }
