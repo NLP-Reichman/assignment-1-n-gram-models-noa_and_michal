@@ -1,7 +1,7 @@
 {
   "link": "https://drive.google.com/file/d/1BU31vRASMcJUVJSAehit0ljhVrM0q_Af/view?usp=sharing",
   "test_preprocess": {
-    "vocab_length": 1787
+    "vocab_length": 1804
   },
   "test_build_lm": {
     "english_2_gram_length": 739,
@@ -9,7 +9,12 @@
     "french_3_gram_length": 8506,
     "spanish_3_gram_length": 8698
   },
-  "test_eval": "NameError(\"name 'math' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 25, in test_eval\n    'en_on_en': round(eval(lm, 'en', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_6124/2424048024.py\", line 36, in eval\n    log_prob_sum += math.log2(prob)\n                    ^^^^\nNameError: name 'math' is not defined. Did you forget to import 'math'\n",
+  "test_eval": {
+    "en_on_en": 19.36,
+    "en_on_fr": 37.96,
+    "en_on_tl": 41.61,
+    "en_on_nl": 38.06
+  },
   "test_generate": {
     "english_2_gram": "I amell1927739'RT llin h",
     "english_3_gram": "I ame\" selphourickwas fr",
