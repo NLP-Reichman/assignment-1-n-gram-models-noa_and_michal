@@ -1,7 +1,6 @@
 {
-  "link": "https://drive.google.com/file/d/1BU31vRASMcJUVJSAehit0ljhVrM0q_Af/view?usp=sharing",
   "test_preprocess": {
-    "vocab_length": 1788
+    "vocab_length": 1787
   },
   "test_build_lm": {
     "english_2_gram_length": 739,
@@ -9,14 +8,14 @@
     "french_3_gram_length": 8506,
     "spanish_3_gram_length": 8698
   },
-  "test_eval": "NameError(\"name 'math' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 25, in test_eval\n    'en_on_en': round(eval(lm, 'en', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_6124/4031295353.py\", line 40, in eval\n    log_prob_sum += math.log2(prob)\n                    ^^^^\nNameError: name 'math' is not defined. Did you forget to import 'math'\n",
+  "test_eval": "NameError(\"name 'math' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_6124/1798211811.py\", line 25, in test_eval\n    'en_on_en': round(eval(lm, 'en', 3), 2),\n                      ^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_6124/2424048024.py\", line 36, in eval\n    log_prob_sum += math.log2(prob)\n                    ^^^^\nNameError: name 'math' is not defined. Did you forget to import 'math'\n",
   "test_generate": {
-    "english_2_gram": " amell1927739'RT llin h",
-    "english_3_gram": "ame\" selphourickwas fr",
-    "english_4_gram": "over. Zo Are froming #M",
-    "spanish_2_gram": "oy guy hen ': e iolosi",
-    "spanish_3_gram": "y ensanta oto el 2078",
-    "french_2_gram": "e suis e Do/u ar conone ve",
-    "french_3_gram": " suistreeke siont spours "
+    "english_2_gram": "I amell1927739'RT llin h",
+    "english_3_gram": "I ame\" selphourickwas fr",
+    "english_4_gram": "I Lover. Zo Are froming #M",
+    "spanish_2_gram": "Soy guy hen ': e iolosi",
+    "spanish_3_gram": "Soy ensanta oto el 2078",
+    "french_2_gram": "Je suis e Do/u ar conone ve",
+    "french_3_gram": "Je suistreeke siont spours "
   }
 }
